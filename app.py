@@ -63,8 +63,8 @@ except Exception as e:
 # ---------------------------------------------------------------------
 # TAMPILAN UTAMA (UI)
 # ---------------------------------------------------------------------
-st.title("Facial Expression Recognition")
-st.write("Klasifikasi Ekspresi Wajah: **Happy, Sad, Angry, Netral**")
+st.title("Animal Expression Recognition")
+st.write("Klasifikasi Ekspresi Hewan: **Happy, Sad, Angry, Netral**")
 st.write("Menggunakan Arsitektur **MobileNetV2**")
 
 # Tampilkan status model (opsional, untuk debug)
@@ -111,6 +111,7 @@ if uploaded_file is not None:
 
 # Footer
 st.markdown("---")
-st.caption("Dikembangkan oleh Kelompok 9 - Universitas Trunojoyo Madura")
+st.caption("Dikembangkan oleh Kelompok 9 Teknik Informatika- Universitas Trunojoyo Madura")
+
 
 
