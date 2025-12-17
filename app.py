@@ -50,7 +50,7 @@ def preprocess_image(image):
 @st.cache_resource
 def load_trained_model():
     # Pastikan file .h5 ada satu folder dengan app.py
-    model = load_model('facial_expression_mobilenet.h5')
+    model = load_model('model_emosi.h5')
     return model
 
 # Load model saat aplikasi mulai
@@ -112,3 +112,4 @@ if uploaded_file is not None:
 # Footer
 st.markdown("---")
 st.caption("Dikembangkan oleh Rendy Devano - Universitas Trunojoyo Madura")
+
