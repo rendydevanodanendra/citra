@@ -9,7 +9,7 @@ from PIL import Image
 # KONFIGURASI HALAMAN
 # ---------------------------------------------------------------------
 st.set_page_config(
-    page_title="Facial Expression Recognition",
+    page_title="Animal Expression Recognition",
     page_icon=" ",
     layout="centered"
 )
@@ -70,7 +70,7 @@ st.write("Menggunakan Arsitektur **MobileNetV2**")
 # Tampilkan status model (opsional, untuk debug)
 # st.text(model_status)
 
-uploaded_file = st.file_uploader("Upload gambar wajah...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload gambar hewan...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Tampilkan gambar yang diupload
@@ -112,6 +112,7 @@ if uploaded_file is not None:
 # Footer
 st.markdown("---")
 st.caption("Dikembangkan oleh Kelompok 9 Teknik Informatika- Universitas Trunojoyo Madura")
+
 
 
 
