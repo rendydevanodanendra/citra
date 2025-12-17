@@ -10,7 +10,7 @@ from PIL import Image
 # ---------------------------------------------------------------------
 st.set_page_config(
     page_title="Facial Expression Recognition",
-    page_icon="😐",
+    page_icon=" ",
     layout="centered"
 )
 
@@ -63,7 +63,7 @@ except Exception as e:
 # ---------------------------------------------------------------------
 # TAMPILAN UTAMA (UI)
 # ---------------------------------------------------------------------
-st.title("😐 Facial Expression Recognition")
+st.title("Facial Expression Recognition")
 st.write("Klasifikasi Ekspresi Wajah: **Happy, Sad, Angry, Netral**")
 st.write("Menggunakan Arsitektur **MobileNetV2**")
 
@@ -111,5 +111,6 @@ if uploaded_file is not None:
 
 # Footer
 st.markdown("---")
-st.caption("Dikembangkan oleh Rendy Devano - Universitas Trunojoyo Madura")
+st.caption("Dikembangkan oleh Kelompok 9 - Universitas Trunojoyo Madura")
+
 
